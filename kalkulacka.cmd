@@ -12,10 +12,11 @@ set /a soucin=%a%*%b%
 
 set /a deleni=%a%/%b%
 
-if %operace%==soucet %soucet%
-if %operace%==soucincin %soucin%
-if %operace%==deleni %deleni%
-
-echo Vysledek %a% %operace% %b%  je  
+if "%operace%"=="soucet" (
+    echo Vysledek %a% + %b% je %soucet%)
+if %operace%=="soucin" %soucin% (
+    echo Vysledek %a% * %b% je %soucin%)
+if %operace%=="deleni" %deleni%(
+    echo Vysledek %a% / %b% je %deleni%)
 
 pause
