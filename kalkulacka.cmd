@@ -14,4 +14,5 @@ if %operace%==soucincin %soucin%
 if %operace%==deleni %deleni%
 
 echo Vysledek %a% %operace% %b%  je   
+
 pause
